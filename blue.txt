@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    static int Main(int[] array)
+    {
+        int min = array[0];
+        for (int i=1; i<array.Length; i++)
+        {
+          if (array [i] < min);
+          min = array[i];  
+        }
+        return min;
+    }
+   
+}
