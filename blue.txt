@@ -14,3 +14,39 @@ public class HelloWorld
     }
    
 }
+ a
+  using Sistem.Reflection.Metadata.Ecma335;
+ class Program
+   static double Field (double r);
+ {
+   double pi = 3;
+   return pi*r*r;
+ }
+ static void Main()
+ {
+  Console.WriteLine("Field(5)")
+ }
+ b
+ using Sistem;
+ class Program
+ {
+     static float Field (float a , float b);{
+         return a*b;
+     }
+     static void Main(){
+         Console.WriteLine("Field(1,9)") }
+     
+ }
+ c 
+ using Sistem;
+ class Program;
+ {
+     static float Field ( float a, float b, float c );
+     {
+         return 2*(a*b+b*c+a*c);
+     }
+     static void Main();
+     {
+            Console.WriteLine("Field(1,9,5");
+     }
+ }
